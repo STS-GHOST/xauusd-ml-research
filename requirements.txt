@@ -1,0 +1,8 @@
+# Core measurement stack (tests need only these two plus pytest)
+numpy>=1.24
+pandas>=2.0
+
+# Training / ONNX export only - not needed to run the test suite
+# catboost>=1.2
+# onnx>=1.15
+# onnxruntime>=1.17

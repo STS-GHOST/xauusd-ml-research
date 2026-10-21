@@ -1,0 +1,23 @@
+# --- Market data: licensed from the broker, never redistributed ---
+*.csv
+*.tsv
+!docs/**/*.csv
+XAUUSD_M1_*.csv
+model_scores*.csv
+
+# --- Model binaries ---
+*.onnx
+*.cbm
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- MT5 / OS ---
+*.ex5
+*.log
+.DS_Store
