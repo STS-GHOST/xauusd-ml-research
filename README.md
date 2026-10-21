@@ -72,8 +72,11 @@ src/
   train_export_onnx.py  Production training and ONNX export (cannot be used to evaluate)
 
 mql5/
-  XAU_CatBoost_EA.mq5   MT5 Expert Advisor: ONNX inference, gating, timeout exit,
-                        full decision logging
+  XAU_CatBoost_EA.mq5   MT5 Expert Advisor: gating, timeout exit, full decision logging
+  include/MLFeatures.mqh  The 9 features recomputed in MQL5 (Wilder ATR/RSI)
+  include/MLModel.mqh     CatBoost trees, generated and inlined
+  README.md               Build notes, and a documented hyperparameter mismatch
+                          between the EA's model and the ONNX export script
 
 tests/
   test_excess_return.py      Regression tests on measurement definitions

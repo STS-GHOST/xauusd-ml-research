@@ -71,7 +71,11 @@ src/
   train_export_onnx.py  本番モデルの学習と ONNX 書き出し（評価には使えません）
 
 mql5/
-  XAU_CatBoost_EA.mq5   MT5 用 EA。ONNX 推論、ゲート、タイムアウト決済、全判定のログ出力
+  XAU_CatBoost_EA.mq5     MT5 用 EA。ゲート、タイムアウト決済、全判定のログ出力
+  include/MLFeatures.mqh  9 特徴量の MQL5 側実装（Wilder ATR/RSI）
+  include/MLModel.mqh     CatBoost の木を埋め込んだ自動生成ファイル
+  README.md               ビルド手順と、EA のモデルと ONNX スクリプトの
+                          ハイパーパラメータ不一致の記録
 
 tests/
   test_excess_return.py     測定の定義に関する回帰テスト
