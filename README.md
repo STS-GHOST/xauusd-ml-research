@@ -1,5 +1,7 @@
 # xauusd-ml-research
 
+![tests](https://github.com/STS-GHOST/xauusd-ml-research/actions/workflows/tests.yml/badge.svg)
+
 **English** | [日本語](README.ja.md)
 
 A record of validating a CatBoost direction model on XAUUSD (gold) hourly bars, through to an Expert Advisor implementation for MetaTrader 5.

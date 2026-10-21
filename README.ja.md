@@ -1,5 +1,7 @@
 # xauusd-ml-research
 
+![tests](https://github.com/STS-GHOST/xauusd-ml-research/actions/workflows/tests.yml/badge.svg)
+
 [English](README.md) | **日本語**
 
 XAUUSD（金・ドル）1時間足に対する、CatBoost を使った方向予測モデルの検証記録です。MetaTrader 5 用 EA への実装まで含みます。
